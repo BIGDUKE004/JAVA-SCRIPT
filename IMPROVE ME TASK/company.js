@@ -1,11 +1,17 @@
 function company(employee){
 
 const {name, salary} = employee
+
+return {name, salary}
 }
- let employee ={
+ 
+employee ={
 name: "dapo",
 role: "engineer",
 salary: 50000,
 department: "tech"
 }
-console.log(employee.name, employee.salary)
+
+
+
+console.log(company(employee))
